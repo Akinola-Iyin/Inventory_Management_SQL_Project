@@ -26,7 +26,6 @@ SELECT
 FROM ranking
 WHERE rnk <= 3;
 
-==============================================================================================================
 
 -- 2. Quarterly Product Line Growth with Growth % (sales growth in % per product line from q to q in each year)
 WITH quarterly_sales AS (
@@ -64,7 +63,6 @@ SELECT
 FROM sales_with_growth
 ORDER BY product_line, year_id, qtr_id;
 
-==============================================================================================================
 
 -- 3. Detect Underperforming Product Lines (prooduct lines where sales have declined for 2+ consecutive quarters)
 WITH quarterly_sales AS (
@@ -128,7 +126,6 @@ FROM consecutive_declines
 WHERE consecutive_decline_count >= 2
 ORDER BY product_line, year_id, qtr_id;
 
-==============================================================================================================
 
 -- 4. Category Contribution to Revenue (% of total revenue each product line contributes per year)
 WITH product_line_revenue AS (
@@ -158,7 +155,6 @@ SELECT
 FROM revenue
 ORDER BY year_id, percentage_of_yearly_revenue DESC;
 
-==============================================================================================================
 
 -- 5. Restock Prioritization Model (products that sell frequently, bring high revenue and have frequent low-quantity orders)
 WITH order_count AS (
