@@ -45,6 +45,8 @@ I tried to draw up the database schema showing the relationship between the tabl
 
 - MySQL Workbench
 - SQL Window Functions, Aggregations, CTEs, Advanced Grouping
+- Entity Relationship Diagram created on draw.io
+
 
 ## ⭐ Usage
 
@@ -55,5 +57,6 @@ I tried to draw up the database schema showing the relationship between the tabl
 
 Project executed by [Akinola Micheal Iyinoluwa](https://github.com/Akinola-Iyin)
 
+This project is part of my personal portfolio to showcase SQL skills relevant to real-world business analytics. All feedback welcome!
 ---
 
