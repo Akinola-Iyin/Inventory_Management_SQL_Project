@@ -36,6 +36,11 @@ This project demonstrates advanced SQL analytics on a simulated Inventory Manage
 The dataset was gotten from Kaggle;
 - [Sample Sales Data on Kaggle](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data)
 
+## 🗺️ Database Schema
+
+I tried to draw up the database schema showing the relationship between the tables;
+![Inventory Management Database Schema](inventory_schema.png)
+
 ## 💻 Tools
 
 - MySQL Workbench
