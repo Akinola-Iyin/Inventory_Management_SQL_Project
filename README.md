@@ -39,7 +39,7 @@ The dataset was gotten from Kaggle;
 ## 🗺️ Database Schema
 
 I tried to draw up the database schema showing the relationship between the tables;
-![Inventory Management Database Schema](Inventory_schema.png)
+![Inventory Management Database Schema](Inventory_Schema.png)
 
 ## 💻 Tools
 
