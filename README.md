@@ -54,9 +54,9 @@ I tried to draw up the database schema showing the relationship between the tabl
 - You can also dapt the Restock Model logic for your business needs.
 
 ## 👏 Credits
+This project is part of my personal portfolio to showcase SQL skills relevant to real-world business analytics. All feedback welcome!
 
 Project executed by [Akinola Micheal Iyinoluwa](https://github.com/Akinola-Iyin)
 
-This project is part of my personal portfolio to showcase SQL skills relevant to real-world business analytics. All feedback welcome!
 ---
 
